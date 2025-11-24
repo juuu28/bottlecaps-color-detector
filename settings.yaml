@@ -1,0 +1,3 @@
+model_type: models/best.pt   
+imgsz: 320                     
+output_dir: /app/runs           
