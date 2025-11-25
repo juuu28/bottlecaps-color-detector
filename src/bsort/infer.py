@@ -1,13 +1,9 @@
-"""
-Inference logic for YOLO bottle cap detection
-"""
 from ultralytics import YOLO
 from typing import Dict
 
 
 def infer_image(cfg: Dict, image_path: str):
-    """Run inference on a single image and save annotated results."""
-    model = YOLO(cfg["model_type"])  # load YOLO model
+    model = YOLO(cfg["model_type"]) 
 
     # Run inference
     results = model.predict(image_path, imgsz=cfg.get("imgsz", 320))

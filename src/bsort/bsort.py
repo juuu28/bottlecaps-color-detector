@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-"""
-CLI program for BottleCap Sorting (bsort) - Inference only
-"""
 import argparse
 import sys
 import yaml
@@ -10,7 +7,6 @@ from typing import Dict
 
 
 def load_config(config_path: str) -> Dict:
-    """Load YAML config file."""
     with open(config_path, "r") as f:
         cfg = yaml.safe_load(f)
     return cfg
