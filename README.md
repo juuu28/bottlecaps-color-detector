@@ -15,10 +15,6 @@ The focus of this submission is on:
 - wandb.ai for model tracking    
 - Fully reproducible builds  
 
-⚠ (Limitations)
-– Model training performed only to baseline level (no hyperparameter tuning)  
-– Docker image is inference-only (training kept outside container)  
-
 ## Installation Guide
 
 1. Build Docker
