@@ -15,10 +15,6 @@ The focus of this submission is on:
 - wandb.ai for model tracking    
 - Fully reproducible builds  
 
-⚠ (Limitations)
-– Model training performed only to baseline level (no hyperparameter tuning)  
-– Docker image is inference-only (training kept outside container)  
-
 ## Installation Guide
 
 1. Build Docker
@@ -51,4 +47,4 @@ https://wandb.ai/dajumaf207-dajumaf/bottlecaps-color-detection
 – CLI + Docker integration required restructuring the project package  
 – Model training and hyperparameter tuning were limited  
 – Training was performed locally in Jupyter Notebook, Docker is only for inference.  
-- wandb didnt track training metrics
+- wandb didnt track training metrics 
