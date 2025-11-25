@@ -47,4 +47,8 @@ https://wandb.ai/dajumaf207-dajumaf/bottlecaps-color-detection
 – CLI + Docker integration required restructuring the project package  
 – Model training and hyperparameter tuning were limited  
 – Training was performed locally in Jupyter Notebook, Docker is only for inference.  
+<<<<<<< HEAD
 - wandb didnt track training metrics 
+=======
+- wandb didnt track training metrics
+>>>>>>> 330e2fb08f8d75f0185504d277eb7f460936bcee
